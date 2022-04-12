@@ -117,8 +117,9 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Movie 🔍", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton(' ⚙️ Updates Channel ⚙️, url=f'{TUTORIAL}'),
-                InlineKeyboardButton(" How To Use Me 🤔", callback_data="about")
+                InlineKeyboardButton(' ⚙️ Updates Channel ⚙️, url=f'{TUTORIAL}')
+                ],[                    
+                InlineKeyboardButton(" How To Use Me 🤔", url='https://t.me/HOW_TO_USE_ME')
                 ]]
             )
         )
@@ -331,7 +332,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton('⚙️ UPDATES CHANNEL ⚙️', url=f'{TUTORIAL}')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)

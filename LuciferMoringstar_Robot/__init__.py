@@ -30,12 +30,14 @@ Bot Owner Only
 ABOUT = """
 ➥ Name :  Auto Filter V3
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+➥ Maintained By : [MH BOTZ ](https://t.me/mh_botz)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+➥ Source : [Click Me](https://github.com/MH-Botz-a/autofilterbotv3)
+
 """
+
+

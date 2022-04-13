@@ -117,10 +117,9 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("🔎 Search Movie 🔍", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton(' ⚙️ Updates Channel ⚙️, url=f'{TUTORIAL}')
-                ],[                    
-                InlineKeyboardButton(" How To Use Me 🤔", url='https://t.me/HOW_TO_USE_ME')
-                ]]
+                InlineKeyboardButton("ℹ️ HELP 👨‍💻 ", callback_data="help"),
+                InlineKeyboardButton("ABOUT 😊", callback_data="about")
+                
             )
         )
         StopPropagation
